@@ -1,0 +1,221 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "filters": "[]",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Slide19504847075932144.PNG",
+            "path": "Slide19504847075932144.PNG",
+            "type": 100
+          },
+          {
+            "name": "Slide45112781249719203.PNG",
+            "path": "Slide45112781249719203.PNG",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Slide4.PNG'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Slide45112781249719203.PNG\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Rating",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"Filter8bb6964364e4c5f96854\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"IMDBdata_MainData\"}},\"Property\":\"Year\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2017L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2000L\"}}}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+      "height": 720.00,
+      "name": "16aecee974bd3d6b9d4f",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"21fb8aa2acb87cd4b5ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":381.838905775076,\"z\":2000,\"width\":596.1246200607903,\"height\":337.38601823708206,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"IMDBdata_MainData.imdbRating\",\"active\":true}],\"Tooltips\":[{\"queryRef\":\"Min(IMDBdata_MainData.Title)\"}],\"Y\":[{\"queryRef\":\"Sum(IMDBdata_MainData.Runtime)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":5},\"Name\":\"Min(IMDBdata_MainData.Title)\",\"NativeReferenceName\":\"Movie Counts\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"},\"Name\":\"IMDBdata_MainData.imdbRating\",\"NativeReferenceName\":\"Average of imdbRating1\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Runtime\"}},\"Function\":1},\"Name\":\"Sum(IMDBdata_MainData.Runtime)\",\"NativeReferenceName\":\"Average of Runtime1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Runtime\"}},\"Function\":1}}}]},\"columnProperties\":{\"Min(IMDBdata_MainData.Title)\":{\"displayName\":\"Movie Counts\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"lineStyles\":[{\"properties\":{\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Relationship between Rating and Runtime'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 337.39,
+          "width": 596.12,
+          "x": 0.00,
+          "y": 381.84,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"2b4a3dabbd3aff3b34cc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":54.7112462006079,\"z\":1000,\"width\":596.1246200607903,\"height\":319.1489361702128,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"IMDBdata_MainData.imdbRating (bins)\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(IMDBdata_MainData.Title)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating (bins)\"},\"Name\":\"IMDBdata_MainData.imdbRating (bins)\",\"NativeReferenceName\":\"Rating\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":5},\"Name\":\"CountNonNull(IMDBdata_MainData.Title)\",\"NativeReferenceName\":\"Movie Counts\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(IMDBdata_MainData.Title)\":{\"displayName\":\"Movie Counts\"},\"IMDBdata_MainData.imdbRating (bins)\":{\"displayName\":\"Rating\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryAxis\":[{\"properties\":{\"logAxisScale\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"invertAxis\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"start\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"end\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}},\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Scalar'\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Movie Counts by Rating '\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 319.15,
+          "width": 596.12,
+          "x": 0.00,
+          "y": 54.71,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"40bc96c6cc7cbf6e9004\",\"layouts\":[{\"id\":0,\"position\":{\"x\":605.2431610942249,\"y\":381.6109422492401,\"z\":0,\"width\":732.4468085106383,\"height\":338.5258358662614,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"IMDBdata_MainData.Director\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(IMDBdata_MainData.imdbRating)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Director\"},\"Name\":\"IMDBdata_MainData.Director\",\"NativeReferenceName\":\"Director\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"}},\"Function\":1},\"Name\":\"Sum(IMDBdata_MainData.imdbRating)\",\"NativeReferenceName\":\"Average of imdbRating\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#67A510'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Martin Scorsese'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#1205D0'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Steven Spielberg'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Clint Eastwood'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Ridley Scott'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DB092C'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Tim Burton'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Steven Soderbergh'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#245F40'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Renny Harlin'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B5573A'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Spike Lee'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#096268'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Cast\"}},\"Property\":\"director_name\"}},\"Right\":{\"Literal\":{\"Value\":\"'Woody Allen'\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Director-wise Mean of IMDB Ratings'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.6}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter738c94c3a64c36963269\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"IMDBdata_MainData\"}},\"Property\":\"Director\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Director\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbVotes\"}},\"Function\":5}}}],\"Top\":10}}},\"Type\":2},{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Director\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0}]",
+          "height": 338.53,
+          "width": 732.45,
+          "x": 605.24,
+          "y": 381.61,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"6e712760087775f4c00d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":605.2431610942249,\"y\":54.369300911854104,\"z\":3000,\"width\":732.4468085106383,\"height\":319.03495440729483,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"X\":[{\"queryRef\":\"Sum(IMDBdata_MainData.imdbRating)\",\"active\":true}],\"Y\":[{\"queryRef\":\"IMDBdata_MainData.Total BoxOffice\"}],\"Size\":[{\"queryRef\":\"Sum(IMDBdata_MainData.imdbVotes)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"},\"Name\":\"Sum(IMDBdata_MainData.imdbRating)\",\"NativeReferenceName\":\"imdbRating\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_Total BoxOffice\"},\"Name\":\"IMDBdata_MainData.Total BoxOffice\",\"NativeReferenceName\":\"BoxOffice Sales\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbVotes\"}},\"Function\":5},\"Name\":\"Sum(IMDBdata_MainData.imdbVotes)\",\"NativeReferenceName\":\"Count of imdbVotes\"}]},\"columnProperties\":{\"IMDBdata_MainData.Total BoxOffice\":{\"displayName\":\"BoxOffice Sales\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Relationship between Rating and Sales'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 319.03,
+          "width": 732.45,
+          "x": 605.24,
+          "y": 54.37,
+          "z": 3000.00
+        }
+      ],
+      "width": 1350.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Insights",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c522cdf32482b8aed7bd",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"e14ab87e05571986c142\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"z\":0,\"width\":1270,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Time Interval: 2001 - 2016\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Key Metrics\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": 3,579 movies across 24 genres, average IMDb rating of 6.38, and 108.66 minutes runtime. \",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Top Genres by Movie Count\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Action, Adventure, Comedy, Drama, and Romance are the most produced genres, though counts slightly declined after 2011.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"IMDb Ratings by Genre: Drama has the highest average rating (6.72), while Horror has the lowest (5.52).\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Box Office Trends\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Peak box office sales around 2010-2011 at 9.6 billion, with a decline to 5.9 billion afterward.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Top Grossing Genres\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Adventure, Action, and Comedy lead in total box office sales, while genres like Mystery and Documentary earn much less.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Observation\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Box office success doesn’t correlate with IMDb ratings; Horror maintains high production despite low ratings.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Target Ratings 5-7 for Broad Appeal\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Most movies fall in the 5-7 rating range, indicating wide audience acceptance. Aim for this range to attract viewership and profitability.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Higher Ratings Boost Box Office\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Movies rated above 6 generally see better box office performance. Focus on quality to push ratings into this profitable range.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Longer Runtimes Can Improve Ratings\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Higher-rated movies tend to be longer. Consider a slightly longer runtime for in-depth storytelling to appeal to quality-seeking audiences.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Choose High-Rated Directors\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\": Directors like Peter Jackson and Clint Eastwood often yield higher-rated movies. Partnering with reputable directors can enhance a movie’s appeal and box office success.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 1270.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Slide1.PNG'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Slide19504847075932144.PNG\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}}}}]}}",
+      "displayName": "Summary",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 1080.00,
+      "name": "f987ce8609fa56ff8c31",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"11f5cb974a61b8fd6803\",\"layouts\":[{\"id\":0,\"position\":{\"x\":877.5,\"y\":92.5,\"z\":6000,\"width\":622.5,\"height\":531.25,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"IMDBdata_MainData.Genre\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(IMDBdata_MainData.imdbRating)\"},{\"queryRef\":\"IMDBdata_MainData._Rating variance\"}],\"Tooltips\":[{\"queryRef\":\"Sum(IMDBdata_MainData.imdbVotes)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"},\"Name\":\"IMDBdata_MainData.Genre\",\"NativeReferenceName\":\"Genre1\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"}},\"Function\":1},\"Name\":\"Sum(IMDBdata_MainData.imdbRating)\",\"NativeReferenceName\":\"Average of imdbRating\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbVotes\"}},\"Function\":5},\"Name\":\"Sum(IMDBdata_MainData.imdbVotes)\",\"NativeReferenceName\":\"Count of imdbVotes\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_Rating variance\"},\"Name\":\"IMDBdata_MainData._Rating variance\",\"NativeReferenceName\":\"_Rating variance\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'InsideCenter'\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"showSeries\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'Auto'\"}}},\"labelOverflow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}},\"selector\":{\"metadata\":\"Sum(IMDBdata_MainData.imdbRating)\"}},{\"properties\":{\"enableTitleDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"enableValueDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelOverflow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'Auto'\"}}}},\"selector\":{\"metadata\":\"IMDBdata_MainData._Rating variance\"}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"maxMarginFactor\":{\"expr\":{\"Literal\":{\"Value\":\"42L\"}}},\"switchAxisPosition\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"showAllDataPoints\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A60E18'\"}}}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"Sum(IMDBdata_MainData.imdbRating)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Genre-wise Mean of IMDB Ratings'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.6}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"IMDBdata_MainData\"}},\"Property\":\"Genre\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbVotes\"}},\"Function\":5}}}],\"Top\":10}}},\"Type\":2},{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 531.25,
+          "width": 622.50,
+          "x": 877.50,
+          "y": 92.50,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"573499024a72603bac3d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":887.5,\"z\":3000,\"width\":223.75,\"height\":150,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(IMDBdata_MainData.Runtime)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Runtime\"}},\"Function\":1},\"Name\":\"Sum(IMDBdata_MainData.Runtime)\",\"NativeReferenceName\":\"Average of Runtime(Min)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Runtime\"}},\"Function\":1}}}]},\"columnProperties\":{\"Sum(IMDBdata_MainData.Runtime)\":{\"displayName\":\"Average of Runtime(Min)\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 150.00,
+          "width": 223.75,
+          "x": 0.00,
+          "y": 887.50,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"5c4b50d3cf37afb38164\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":375,\"z\":8000,\"width\":223.75,\"height\":98.75,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"IMDBdata_MainData._YoY_PercentageChange\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_YoY_PercentageChange\"},\"Name\":\"IMDBdata_MainData._YoY_PercentageChange\",\"NativeReferenceName\":\"YoY Movie Counts %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_YoY_PercentageChange\"}}}]},\"columnProperties\":{\"IMDBdata_MainData._YoY_PercentageChange\":{\"displayName\":\"YoY Movie Counts %\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 98.75,
+          "width": 223.75,
+          "x": 0.00,
+          "y": 375.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"6b0dd6cb0d2b5d31a603\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":637.5,\"z\":2000,\"width\":223.75,\"height\":120,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(IMDBdata_MainData.imdbRating)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"}},\"Function\":1},\"Name\":\"Sum(IMDBdata_MainData.imdbRating)\",\"NativeReferenceName\":\"Average of imdbRating\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 120.00,
+          "width": 223.75,
+          "x": 0.00,
+          "y": 637.50,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"886da47220b54de4aa43\",\"layouts\":[{\"id\":0,\"position\":{\"x\":248.7192118226601,\"y\":93.10344827586206,\"z\":4000,\"width\":605.1724137931034,\"height\":530.6896551724137,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"IMDBdata_MainData.Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(IMDBdata_MainData.Title)\"}],\"Series\":[{\"queryRef\":\"IMDBdata_MainData.Genre\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Year\"},\"Name\":\"IMDBdata_MainData.Year\",\"NativeReferenceName\":\"Year\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":5},\"Name\":\"CountNonNull(IMDBdata_MainData.Title)\",\"NativeReferenceName\":\"Movie Counts\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"},\"Name\":\"IMDBdata_MainData.Genre\",\"NativeReferenceName\":\"Count of Genre\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(IMDBdata_MainData.Title)\":{\"displayName\":\"Movie Counts\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"totals\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'TOP 5 Genre By Movie Counts '\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"IMDBdata_MainData\"}},\"Property\":\"Genre\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":5}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "height": 530.69,
+          "width": 605.17,
+          "x": 248.72,
+          "y": 93.10,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"96b689019e9428934246\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":497.5,\"z\":1000,\"width\":223.75,\"height\":113.75,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(IMDBdata_MainData.Genre)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"}},\"Function\":2},\"Name\":\"Min(IMDBdata_MainData.Genre)\",\"NativeReferenceName\":\"Count of Genre1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 113.75,
+          "width": 223.75,
+          "x": 0.00,
+          "y": 497.50,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9c70e63de892a869690a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":223.75,\"z\":0,\"width\":223.75,\"height\":135,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(IMDBdata_MainData.Title)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":2},\"Name\":\"Min(IMDBdata_MainData.Title)\",\"NativeReferenceName\":\"Movie Counts\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Title\"}},\"Function\":2}}}]},\"columnProperties\":{\"Min(IMDBdata_MainData.Title)\":{\"displayName\":\"Movie Counts\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 135.00,
+          "width": 223.75,
+          "x": 0.00,
+          "y": 223.75,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ba2c4901084acdf865fa\",\"layouts\":[{\"id\":0,\"position\":{\"x\":248.7192118226601,\"y\":637.0935960591132,\"z\":5000,\"width\":605.1724137931034,\"height\":442.90640394088666,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"IMDBdata_MainData.Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"IMDBdata_MainData.Total BoxOffice\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Year\"},\"Name\":\"IMDBdata_MainData.Year\",\"NativeReferenceName\":\"Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_Total BoxOffice\"},\"Name\":\"IMDBdata_MainData.Total BoxOffice\",\"NativeReferenceName\":\"BoxOffice Sales\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_Total BoxOffice\"}}}]},\"columnProperties\":{\"IMDBdata_MainData.Total BoxOffice\":{\"displayName\":\"BoxOffice Sales\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"lineStyles\":[{\"properties\":{\"areaShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 442.91,
+          "width": 605.17,
+          "x": 248.72,
+          "y": 637.09,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"bb26df559ec5e39860ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":93.10344827586206,\"z\":9000,\"width\":223.44827586206895,\"height\":102.41379310344827,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"IMDBdata_MainData.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Year\"},\"Name\":\"IMDBdata_MainData.Year\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"numericStart\":{\"expr\":{\"Literal\":{\"Value\":\"2001D\"}}},\"numericEnd\":{\"expr\":{\"Literal\":{\"Value\":\"2016D\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2001D\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Year\"}},\"Right\":{\"Literal\":{\"Value\":\"2016D\"}}}}}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 102.41,
+          "width": 223.45,
+          "x": 0.00,
+          "y": 93.10,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"de4c1c96c0854faf81d7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":772.5,\"z\":10000,\"width\":223.75,\"height\":96.25,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"IMDBdata_MainData._YoY_Rating_PercentageChange\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_YoY_Rating_PercentageChange\"},\"Name\":\"IMDBdata_MainData._YoY_Rating_PercentageChange\",\"NativeReferenceName\":\"YoY Rating %\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_YoY_Rating_PercentageChange\"}}}]},\"columnProperties\":{\"IMDBdata_MainData._YoY_Rating_PercentageChange\":{\"displayName\":\"YoY Rating %\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 96.25,
+          "width": 223.75,
+          "x": 0.00,
+          "y": 772.50,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"edc5806dc911567a61c8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":877.832512315271,\"y\":637.0935960591132,\"z\":7000,\"width\":622.4630541871921,\"height\":442.90640394088666,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"IMDBdata_MainData.Genre\",\"active\":true}],\"Y\":[{\"queryRef\":\"IMDBdata_MainData._Total BoxOffice\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Genre\"},\"Name\":\"IMDBdata_MainData.Genre\",\"NativeReferenceName\":\"Genre\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_Total BoxOffice\"},\"Name\":\"IMDBdata_MainData._Total BoxOffice\",\"NativeReferenceName\":\"_Total BoxOffice\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"_Total BoxOffice\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Genre by BoxOffice Sales'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 442.91,
+          "width": 622.46,
+          "x": 877.83,
+          "y": 637.09,
+          "z": 7000.00
+        }
+      ],
+      "width": 1500.00
+    }
+  ]
+}

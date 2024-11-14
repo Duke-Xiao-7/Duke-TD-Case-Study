@@ -1,0 +1,4868 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"IMDBdata_MainData\",\"Errors in IMDBdata_MainData\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.130.930.0 (24.06)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "IMD_bdata_main_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "IMD bdata main data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "IMDBdata_MainData": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "imd bdata main information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "imd bdata main fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "imd bdata main info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "imd bdata main statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.771
+                    }
+                  },
+                  {
+                    "imd bdata main document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "imd bdata main figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  },
+                  {
+                    "imd bdata main record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.748
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.actor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Actors"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "actor": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "performer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "artiste": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "artist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "player": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "thespian": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.award": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Awards"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "award": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "accolade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "prize": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "honor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "reward": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gift": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "grant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "decoration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "verdict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "decision": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.box_office": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "BoxOffice"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "box office": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "BoxOffice": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "office": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "box workplace": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "box agency": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "workplace": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "agency": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "box headquarters": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "headquarters": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "box organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "box workforce": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "box department": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "country": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "nation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.director": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Director"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "director": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "manager": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "administrator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "leader": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "executive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "boss": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "principal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "chief": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "instructor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "counselor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "counsellor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.dvd": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "DVD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dvd": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.genre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Genre"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "genre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "genus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "field": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.imdbRating_bins": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "imdbRating (bins)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "imdbRating (bins)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "imdbRating (bin)": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "imdbRating": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "Rating": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.imdb_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "imdbID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "imdb ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "imdbID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "imdb identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "imdb identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "imdb identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "imdb credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.imdb_rating": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "imdbRating"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "imdb rating": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "imdbRating": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "imdb assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "imdb evaluation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "imdb score": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "imdb grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "imdb ranking": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "imdb mark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "imdb sailor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "imdb seaman": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "imdb hand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.imdb_vote": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "imdbVotes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "imdb vote": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "imdbVotes": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "imdb division": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "imdb ballot": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "imdb election": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "imdb poll": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.language": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Language"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "language": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "verbal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "idiom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "lingo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "dialect": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "patois": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "tongue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "vernacular": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "argot": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "jargon": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.metascore": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Metascore"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "metascore": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.plot": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Plot"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "plot": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "conspiracy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "subversion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "strategy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "stratagem": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "plan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scheme": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "design": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "intrigue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "storyline": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "scenario": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.poster": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Poster"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "poster": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "artwork": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "picture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "print": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "reproduction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "photograph": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "advertisement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "announcement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "placard": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "notice": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "bill": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.production": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Production"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "production": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "construction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "creation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "invention": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "fabrication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "assembly": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "manufacture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "making": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.rated": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Rated"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rated": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.ratings_source": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Ratings.Source"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ratings.source": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "rating.source": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "rating. basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rating. font": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rating. birthplace": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rating. foundation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. cause": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. spring": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. cradle": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. home": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. informant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "rating. spokesperson": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.ratings_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Ratings.Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ratings.value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "rating.value": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "rating. assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "rating. worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "rating. importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "rating. significance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "rating. usefulness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "rating. consequence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.released": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Released"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "released": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "free": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "unconfined": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "out": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "unrestricted": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "unconstrained": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.response": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Response"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "response": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "rejoinder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "comeback": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "reaction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "reply": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "answer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "retort": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.runtime": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Runtime"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "runtime": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.runtime_bins": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Runtime (bins)"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "runtime (bins)": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "runtime (bin)": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "runtime": {
+                      "State": "Generated",
+                      "Weight": 0.75
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.title": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Title"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "title": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "designation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "call": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "heading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.tomato_URL": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "tomatoURL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tomato URL": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tomatoURL": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "URL": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "tomato website": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "tomato site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tomato web address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.589
+                    }
+                  },
+                  {
+                    "web address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.571
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.total_BoxOffice": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "_Total BoxOffice"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_total BoxOffice": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_ aggregate boxoffice": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "_ overall boxoffice": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "BoxOffice Sales": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Type"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "style": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "form": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grouping": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.v_Avg_IMDb_Rating_avg_IMDb_rating": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "_Avg IMDb Rating"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_avg IMDb rating": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_ average imdb rating": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  },
+                  {
+                    "_avg imdb assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "_avg imdb evaluation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "_avg imdb score": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "_avg imdb grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "_avg imdb ranking": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "_avg imdb mark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "_avg imdb sailor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.489
+                    }
+                  },
+                  {
+                    "_avg imdb seaman": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.489
+                    }
+                  },
+                  {
+                    "_avg imdb hand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.474
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.v_PreviousYearValue_PreviousYearValue": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "_PreviousYearValue"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_PreviousYearValue": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.website": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Website"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "website": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "web address": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.571
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.writer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Writer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "writer": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "novelist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "playwright": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "poet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "journalist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "essayist": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "critic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "author": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.yo_Y_percentage_change": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "_YoY_PercentageChange"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "yo Y percentage change": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_YoY_PercentageChange": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "yo y percentage alteration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage modification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage variation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage transformation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage revolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage conversion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage adjustment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage amendment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "yo y percentage difference": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "yo y percentage cash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.474
+                    }
+                  },
+                  {
+                    "YoY Movie Counts %": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "IMD_bdata_main_data.yo_Y_rating_percentage_change": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "IMDBdata_MainData",
+                    "ConceptualProperty": "_YoY_Rating_PercentageChange"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "yo Y rating percentage change": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_YoY_Rating_PercentageChange": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "yo y rating percentage alteration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage modification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage variation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage transformation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage revolution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage conversion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage adjustment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage amendment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.52
+                    }
+                  },
+                  {
+                    "yo y rating percentage difference": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.504
+                    }
+                  },
+                  {
+                    "yo y rating percentage cash": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.479
+                    }
+                  },
+                  {
+                    "YoY Rating %": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "IMD_bdata_main_data_has_actor": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.actor"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_actors",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "actors_act_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.actor"
+                      },
+                      "Verbs": [
+                        {
+                          "act": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.75
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.actor"
+                      }
+                    },
+                    "ID": "actors_have_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.actor": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.actor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_award": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.award"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_awards",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.award": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.award"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_box_office": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.box_office"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_box_offices",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.box_office": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.box_office"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_country": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.country"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_countries",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.country": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.country"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_director": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.director"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_directors",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "directors_direct_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.director"
+                      },
+                      "Verbs": [
+                        {
+                          "direct": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.75
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.director"
+                      }
+                    },
+                    "ID": "directors_have_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.director": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.director"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_dvd": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.dvd"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_dvds",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.dvd": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.dvd"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_genre": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.genre"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_genres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.genre": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.genre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_imdbRating_bins": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.imdbRating_bins"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_imdbRating_bins",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.imdbRating_bins": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.imdbRating_bins"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_imdb_ID": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.imdb_ID"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_imdb_ID",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.imdb_ID": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.imdb_ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_imdb_rating": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.imdb_rating"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_imdb_rating",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.imdb_rating": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.imdb_rating"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_imdb_vote": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.imdb_vote"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_imdb_votes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.imdb_vote": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.imdb_vote"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_language": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.language"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_languages",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.language": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.language"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_metascore": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.metascore"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_metascores",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.metascore": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.metascore"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_plot": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.plot"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_plots",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.plot": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.plot"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_poster": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.poster"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_posters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "posters_post_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.poster"
+                      },
+                      "Verbs": [
+                        {
+                          "post": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.75
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.poster"
+                      }
+                    },
+                    "ID": "posters_have_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.poster": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.poster"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_production": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.production"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_productions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.production": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.production"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_rated": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.rated"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_rated",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.rated": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.rated"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_ratings_source": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.ratings_source"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_ratings_sources",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.ratings_source": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.ratings_source"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_ratings_value": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.ratings_value"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_ratings_values",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.ratings_value": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.ratings_value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_released": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.released"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_released",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.released": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.released"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_response": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.response"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_responses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.response": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.response"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_runtime": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.runtime"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_runtimes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.runtime": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.runtime"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_runtime_bins": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.runtime_bins"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_runtime_bins",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.runtime_bins": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.runtime_bins"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_title": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.title"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_titles",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.title": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.title"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_tomato_URL": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.tomato_URL"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_tomato_URLs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.tomato_URL": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.tomato_URL"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_total_BoxOffice": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.total_BoxOffice"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have__total_BoxOffice",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.total_BoxOffice": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.total_BoxOffice"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_type": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.type"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.type": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_v_Avg_IMDb_Rating_avg_IMDb_rating": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.v_Avg_IMDb_Rating_avg_IMDb_rating"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have__avg_IMDb_rating",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.v_Avg_IMDb_Rating_avg_IMDb_rating": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.v_Avg_IMDb_Rating_avg_IMDb_rating"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_v_PreviousYearValue_PreviousYearValue": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.v_PreviousYearValue_PreviousYearValue"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have__PreviousYearValue",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.v_PreviousYearValue_PreviousYearValue": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.v_PreviousYearValue_PreviousYearValue"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_website": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.website"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_websites",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.website": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.website"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_writer": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.writer"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_writers",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "writers_write_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.writer"
+                      },
+                      "Verbs": [
+                        {
+                          "write": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.75
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data.writer"
+                      }
+                    },
+                    "ID": "writers_have_IMD_bdata_main_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.writer": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.writer"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.year"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.year": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_yo_Y_percentage_change": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.yo_Y_percentage_change"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_yo_Y_percentage_change",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.yo_Y_percentage_change": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.yo_Y_percentage_change"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_has_yo_Y_rating_percentage_change": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.yo_Y_rating_percentage_change"
+                      },
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "ID": "IMD_bdata_main_data_have_yo_Y_rating_percentage_change",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.yo_Y_rating_percentage_change": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.yo_Y_rating_percentage_change"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "IMD_bdata_main_data_in_country": {
+                "Binding": {
+                  "ConceptualEntity": "IMDBdata_MainData"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "IMD_bdata_main_data_are_in_countries",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "IMD_bdata_main_data.country"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "IMD_bdata_main_data"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "IMD_bdata_main_data": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data"
+                    }
+                  },
+                  "IMD_bdata_main_data.country": {
+                    "Target": {
+                      "Entity": "IMD_bdata_main_data.country"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "IMD_bdata_main_data.country"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Errors in IMDBdata_MainData",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "Source = IMDBdata_MainData,",
+          "  #\"Detected Type Mismatches\" = let",
+          "    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Source, Table.ColumnsOfType(Source, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),",
+          "    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),",
+          "    fieldNames = Record.FieldNames(recordTypeFields),",
+          "    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),",
+          "    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = \"The type of the value does not match the type of the column.\", Detail = v], fieldTypes{i}})",
+          "in",
+          "    Table.TransformColumns(Source, pairs),",
+          "  #\"Added Index\" = Table.AddIndexColumn(#\"Detected Type Mismatches\", \"Row Number\" ,1),",
+          "  #\"Kept Errors\" = Table.SelectRowsWithErrors(#\"Added Index\", {\"Title\", \"Year\", \"Rated\", \"Released\", \"Runtime\", \"Genre\", \"Director\", \"Writer\", \"Actors\", \"Plot\", \"Language\", \"Country\", \"Awards\", \"Poster\", \"Ratings.Source\", \"Ratings.Value\", \"Metascore\", \"imdbRating\", \"imdbVotes\", \"imdbID\", \"Type\", \"DVD\", \"BoxOffice\", \"Production\", \"Website\", \"Response\", \"tomatoURL\"}),",
+          "  #\"Reordered Columns\" = Table.ReorderColumns(#\"Kept Errors\", {\"Row Number\", \"Title\", \"Year\", \"Rated\", \"Released\", \"Runtime\", \"Genre\", \"Director\", \"Writer\", \"Actors\", \"Plot\", \"Language\", \"Country\", \"Awards\", \"Poster\", \"Ratings.Source\", \"Ratings.Value\", \"Metascore\", \"imdbRating\", \"imdbVotes\", \"imdbID\", \"Type\", \"DVD\", \"BoxOffice\", \"Production\", \"Website\", \"Response\", \"tomatoURL\"})",
+          "in",
+          "  #\"Reordered Columns\""
+        ],
+        "kind": "m",
+        "lineageTag": "bd90381a-9288-414c-8d15-f147a589ae85",
+        "queryGroup": "Query Errors - 2024-11-13 7:01:28 PM"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "description": "Errors in queries that were loaded on 2024-11-13 7:01:28 PM.",
+        "folder": "Query Errors - 2024-11-13 7:01:28 PM"
+      }
+    ],
+    "sourceQueryCulture": "en-CA",
+    "tables": [
+      {
+        "name": "IMDBdata_MainData",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Title",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "969262bf-207a-4222-b3a7-1bb4d6804c68",
+            "sourceColumn": "Title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "7f38091c-6009-4225-b556-2455b2042f49",
+            "sourceColumn": "Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Rated",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f442aea9-8bd4-4438-a21a-706c0292a8ca",
+            "sourceColumn": "Rated",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Released",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "31078306-5394-4baf-b1df-33ef1f5680dd",
+            "sourceColumn": "Released",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Runtime",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"IMDBdata_MainData\",\"TableItemName\":\"Runtime (bins)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "41cc2d2d-6dd1-4fa9-8c60-d6890c6b4aab",
+            "sourceColumn": "Runtime",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Genre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "23a1d982-10a5-4d22-921f-631204ce181d",
+            "sourceColumn": "Genre",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Director",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0c8c9fe9-3501-4ca8-83ed-05061d4e7348",
+            "sourceColumn": "Director",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Writer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "81385333-8c91-4122-a2d8-b687d10677d1",
+            "sourceColumn": "Writer",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Actors",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a8160f99-6195-41c2-8045-5fbd3b0b647e",
+            "sourceColumn": "Actors",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Plot",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "aaa7b2fc-2a76-4711-b680-33574ba4255f",
+            "sourceColumn": "Plot",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Language",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f00b38a3-5ab6-4480-affa-f25d55d30f71",
+            "sourceColumn": "Language",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a745e78b-69bf-47c4-a942-15a438f1bfe1",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Awards",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "34fcf1d8-1eed-4db5-986f-61a8e531d3b8",
+            "sourceColumn": "Awards",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Poster",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "981e045c-c231-4ad4-9e00-b256202561f3",
+            "sourceColumn": "Poster",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ratings.Source",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0594594c-fef0-4337-a8b8-a8bdf8da4521",
+            "sourceColumn": "Ratings.Source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ratings.Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "69c5dc72-2608-4b4d-8c94-7ff6c0c021bc",
+            "sourceColumn": "Ratings.Value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Metascore",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "db771105-ae32-47fb-890f-c00e8a9f910e",
+            "sourceColumn": "Metascore",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "imdbRating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"IMDBdata_MainData\",\"TableItemName\":\"imdbRating (bins)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b1372daa-a9bb-448e-b3a3-3c238cc29467",
+            "sourceColumn": "imdbRating",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "imdbVotes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "13c67a02-054e-4958-a9c6-b5645ae2975c",
+            "sourceColumn": "imdbVotes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "imdbID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6429336d-9a34-446e-ac1a-cbe097c72e81",
+            "sourceColumn": "imdbID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6e25e3cd-feed-425c-90c5-db08ef1ee3e9",
+            "sourceColumn": "Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DVD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6563f4cc-6678-4dfb-8a4e-50156d9fa802",
+            "sourceColumn": "DVD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "BoxOffice",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cc65cff9-63c5-4b05-88cf-512af1dc7dc2",
+            "sourceColumn": "BoxOffice",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Production",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e4d34e28-fec8-4672-86bb-549bd9e7e47b",
+            "sourceColumn": "Production",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Website",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "74a711f0-ef8f-4e1c-ba1d-ef61979a1403",
+            "sourceColumn": "Website",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Response",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "lineageTag": "7300ee99-258a-47ce-9b0f-b2893a2a2f63",
+            "sourceColumn": "Response",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tomatoURL",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7a6325d3-8e66-43bb-8984-750291c04a38",
+            "sourceColumn": "tomatoURL",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "imdbRating (bins)",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"}}],\"BinItem\":{\"Expression\":{\"Floor\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"imdbRating\"}},\"Size\":1.0}}}}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": [
+              "IF(",
+              "\tISBLANK('IMDBdata_MainData'[imdbRating]),",
+              "\tBLANK(),",
+              "\tIF(",
+              "\t\t'IMDBdata_MainData'[imdbRating] >= 0,",
+              "\t\tROUNDDOWN('IMDBdata_MainData'[imdbRating], 0),",
+              "\t\tROUNDUP('IMDBdata_MainData'[imdbRating], 0)",
+              "\t)",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "binningMetadata": {
+                    "binSize": {
+                      "unit": 0,
+                      "value": 1.0
+                    }
+                  },
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "IMDBdata_MainData"
+                          }
+                        },
+                        "Property": "imdbRating"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "10ebc9a9-e4a4-4903-86ad-f3148a41a231",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Runtime (bins)",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"i\",\"Entity\":\"IMDBdata_MainData\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Runtime\"}}],\"BinItem\":{\"Expression\":{\"Floor\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"i\"}},\"Property\":\"Runtime\"}},\"Size\":30.0}}}}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "IF(",
+              "\tISBLANK('IMDBdata_MainData'[Runtime]),",
+              "\tBLANK(),",
+              "\tINT('IMDBdata_MainData'[Runtime] / 30) * 30",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "binningMetadata": {
+                    "binSize": {
+                      "unit": 0,
+                      "value": 30.0
+                    }
+                  },
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "IMDBdata_MainData"
+                          }
+                        },
+                        "Property": "Runtime"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "bc41304a-c028-4477-a9c0-350299538f59",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "4f699c51-137c-475f-9a9b-7d10f6255a9c",
+        "measures": [
+          {
+            "name": "_Total BoxOffice",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUMX(",
+              "        DISTINCT(IMDBdata_MainData[Title]), ",
+              "        FIRSTNONBLANK(IMDBdata_MainData[BoxOffice], 0)",
+              "    )",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "9d818a1b-4477-4281-9d7e-4e54c4ea5769"
+          },
+          {
+            "name": "_PreviousYearValue",
+            "expression": [
+              "",
+              "VAR CurrentYear = MAX('IMDBdata_MainData'[Year]) ",
+              "RETURN ",
+              "CALCULATE( ",
+              "DISTINCTCOUNT('IMDBdata_MainData'[Title]), ",
+              "'IMDBdata_MainData'[Year] = CurrentYear - 1 ",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "22b53a66-0491-405f-935d-007508b9fe22"
+          },
+          {
+            "name": "_YoY_PercentageChange",
+            "expression": [
+              "",
+              "var",
+              "CurrentYearValue = DISTINCTCOUNT('IMDBdata_MainData'[Title])",
+              "",
+              "RETURN",
+              "",
+              "    DIVIDE(",
+              "        CurrentYearValue - [_PreviousYearValue], ",
+              "        [_PreviousYearValue], ",
+              "        0",
+              "    )"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "bb67fa59-8090-4762-9520-6d71df8c458e"
+          },
+          {
+            "name": "_Avg IMDb Rating",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "    ALL(IMDBdata_MainData[Genre]),",
+              "    CALCULATE(AVERAGE(IMDBdata_MainData[imdbRating]))",
+              ")"
+            ],
+            "lineageTag": "7bd09624-3c77-4357-b32f-acb217499c88"
+          },
+          {
+            "name": "_YoY_Rating_PercentageChange",
+            "expression": [
+              "",
+              "VAR CurrentYear = MAX('IMDBdata_MainData'[Year])",
+              "VAR CurrentYearRating = ",
+              "    CALCULATE(",
+              "        AVERAGE('IMDBdata_MainData'[imdbRating]),",
+              "        'IMDBdata_MainData'[Year] = CurrentYear",
+              "    )",
+              "VAR PreviousYearRating = ",
+              "    CALCULATE(",
+              "        AVERAGE('IMDBdata_MainData'[imdbRating]),",
+              "        'IMDBdata_MainData'[Year] = CurrentYear - 1",
+              "    )",
+              "RETURN",
+              "    DIVIDE(",
+              "        CurrentYearRating - PreviousYearRating,",
+              "        PreviousYearRating,",
+              "        0",
+              "    )"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "335e4566-e455-4e66-bdf0-65ec1d3a3790"
+          },
+          {
+            "name": "_Rating variance",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE(IMDBdata_MainData[imdbRating]) - [_Avg IMDb Rating]",
+            "lineageTag": "a9a9e264-3ceb-48ec-aab4-b475243fa1ce"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "IMDBdata_MainData",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\xiaoz\\OneDrive\\Desktop\\IMDBdata_MainData.csv\"),[Delimiter=\",\", Columns=27, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Title\", type text}, {\"Year\", Int64.Type}, {\"Rated\", type text}, {\"Released\", type text}, {\"Runtime\", type text}, {\"Genre\", type text}, {\"Director\", type text}, {\"Writer\", type text}, {\"Actors\", type text}, {\"Plot\", type text}, {\"Language\", type text}, {\"Country\", type text}, {\"Awards\", type text}, {\"Poster\", type text}, {\"Ratings.Source\", type text}, {\"Ratings.Value\", type text}, {\"Metascore\", type text}, {\"imdbRating\", type number}, {\"imdbVotes\", Int64.Type}, {\"imdbID\", type text}, {\"Type\", type text}, {\"DVD\", type text}, {\"BoxOffice\", type text}, {\"Production\", type text}, {\"Website\", type text}, {\"Response\", type logical}, {\"tomatoURL\", type text}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Changed Type\",\"min\",\"\",Replacer.ReplaceText,{\"Runtime\"}),",
+                "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",\"N/A\",null,Replacer.ReplaceValue,{\"Runtime\"}),",
+                "    #\"Replaced Value2\" = Table.ReplaceValue(#\"Replaced Value1\",\"1 h 27 min\",\"87\",Replacer.ReplaceText,{\"Runtime\"}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Replaced Value2\",{{\"Runtime\", Int64.Type}}),",
+                "    #\"Replaced Value3\" = Table.ReplaceValue(#\"Changed Type1\",\"$\",\"\",Replacer.ReplaceText,{\"BoxOffice\"}),",
+                "    #\"Replaced Value4\" = Table.ReplaceValue(#\"Replaced Value3\",\",\",\"\",Replacer.ReplaceText,{\"BoxOffice\"}),",
+                "    #\"Replaced Value5\" = Table.ReplaceValue(#\"Replaced Value4\",\"N/A\",null,Replacer.ReplaceValue,{\"BoxOffice\"}),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Replaced Value5\",{{\"BoxOffice\", Int64.Type}}),",
+                "    #\"Split Column by Delimiter\" = Table.ExpandListColumn(Table.TransformColumns(#\"Changed Type2\", {{\"Genre\", Splitter.SplitTextByDelimiter(\",\", QuoteStyle.Csv), let itemType = (type nullable text) meta [Serialized.Text = true] in type {itemType}}}), \"Genre\"),",
+                "    #\"Changed Type3\" = Table.TransformColumnTypes(#\"Split Column by Delimiter\",{{\"Genre\", type text}}),",
+                "    #\"Trimmed Text\" = Table.TransformColumns(#\"Changed Type3\",{{\"Genre\", Text.Trim, type text}})",
+                "in",
+                "    #\"Trimmed Text\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_13002af5-eb5f-47c9-a092-779c4841a6c2",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "28a9383f-8874-4554-a3d5-6d332418dba6",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2e02322e-1f66-4715-ba5b-e34dc1102897",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "208b2568-b58d-485d-a6e3-95ad97c92fac",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "b1a29329-890f-42fa-b4d7-8ce136f2300f",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "b44ce057-94be-4f20-9bc5-af0c4cdadb20",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "0381fa07-f305-405c-8630-b243795317bb",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f22981ea-d92c-4450-857c-7cb13ce7acfb",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "fb34e98f-1808-4e71-bc42-34055759fa53",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "a4f0cd7c-032d-4d8e-82e4-674a1fdf861c",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "19b70c22-4997-4810-a24f-d0fdc6cc7582",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "cd467407-2bed-4ad1-b80d-8d6c9e8e2e80",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "3add4c7f-e997-472c-8aaa-a452caa0b6c7"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "0fbb5cc9-3773-4a8f-bfb8-2878427bcea8",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_13002af5-eb5f-47c9-a092-779c4841a6c2",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
